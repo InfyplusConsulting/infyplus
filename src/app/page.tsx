@@ -102,7 +102,7 @@ export default async function Home() {
           <div className="row justify-content-center align-items-center">
             {/* Left Illustration */}
             <div className="col-md-2 d-none d-md-block">
-              <img src="/InfyPlus Website 600x400/7.1.png" alt="Left Illustration" style={{ maxWidth: "100%", height: "auto" }} />
+              <img src="https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782947875/7.1_ylpllr.png" alt="Left Illustration" style={{ maxWidth: "100%", height: "auto" }} />
             </div>
             {/* Main Content */}
             <div className="col-md-8">
@@ -123,7 +123,7 @@ export default async function Home() {
                     </div>
                   </div>
                   <div style={{ flex: "0 0 auto", padding: "10px" }} className="dn">
-                    <img src="/InfyPlus Website 600x400/6.1.png" alt="Cycle Diagram" style={{ width: "140px", maxWidth: "100%" }} />
+                    <img src="https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782947876/6.1_gn9vqa.png" alt="Cycle Diagram" style={{ width: "140px", maxWidth: "100%" }} />
                   </div>
                   <div style={{ flex: 1, minWidth: "200px", padding: "10px", paddingTop: "10px" }}>
                     <div style={{ marginBottom: "40px" }}>
@@ -140,7 +140,7 @@ export default async function Home() {
             </div>
             {/* Right Illustration */}
             <div className="col-md-2 d-none d-md-block">
-              <img src="/InfyPlus Website 600x400/7.png" alt="Right Illustration" style={{ maxWidth: "100%", height: "auto" }} />
+              <img src="https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782947875/7_wufd8v.png" alt="Right Illustration" style={{ maxWidth: "100%", height: "auto" }} />
             </div>
           </div>
         </div>
