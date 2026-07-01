@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "overrides": {
+    "react-quill": {
+      "react": "$react"
+    }
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "bootstrap": "^5.3.8",
