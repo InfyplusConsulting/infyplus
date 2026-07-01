@@ -35,7 +35,7 @@ export default async function About() {
           playsInline 
           style={{ top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, marginTop: "0px" }}
         >
-          <source src={content.heroVideo} type="video/mp4" />
+          <source src={"https://res.cloudinary.com/dsi8rmtfp/video/upload/v1782945674/whatsapp_video_2025-04-21_at_7.02.50_pm_f7nq41.mp4"} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
@@ -61,7 +61,7 @@ export default async function About() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", alignItems: "flex-start" }} className="images-center">
             {/* Image */}
             <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-              <img src={content.founderImage} alt="Founder" style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
+              <img src={content.founderImage || "https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945703/vn_ol4fdb.png"} alt="Founder" style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
               <p style={{ fontWeight: "bold", marginBottom: "4px" }}>{content.founderName}</p>
               <p style={{ margin: 0 }}>Founder -</p>
               <p style={{ margin: 0 }}>InfyPlus Consulting</p>
@@ -127,7 +127,7 @@ export default async function About() {
             </div>
             {/* Image and Bio */}
             <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-              <img src={content.mentorImage} alt={content.mentorName} style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
+              <img src={content.mentorImage || "https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945701/ra_gewx5h.png"} alt={content.mentorName} style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
               <p style={{ fontWeight: "bold", marginBottom: "4px" }}>{content.mentorName}</p>
               <p style={{ margin: 0 }} dangerouslySetInnerHTML={{ __html: content.mentorTitleText.replace(" | ", "<br>") }} />
             </div>
