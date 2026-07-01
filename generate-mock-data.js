@@ -211,11 +211,11 @@ const pagesData = {
       canonical: "https://infyplus.com/about"
     },
     content: {
-      heroVideo: "/assets/video/WhatsApp Video 2025-04-21 at 7.02.50 PM.mp4",
+      heroVideo: "",
       whoWeAreTitle: "Who We Are?",
       whoWeAreText: "InfyPlus Consulting is a leading strategic marketing firm specializing in data-driven growth strategies, brand development, and digital excellence. Unlike traditional agencies that focus solely on execution, we partner with businesses to create holistic marketing strategies that drive revenue, brand recognition, and customer engagement.",
       storyTitle: "Our Story",
-      founderImage: "/infyplus website 600x400/VN.png",
+      founderImage: "https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945703/vn_ol4fdb.png",
       founderName: "Vaibhav Nigam",
       founderTitle: "Founder - InfyPlus Consulting",
       storyParagraphs: [
