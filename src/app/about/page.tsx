@@ -61,7 +61,7 @@ export default async function About() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", alignItems: "flex-start" }} className="images-center">
             {/* Image */}
             <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-              <img src={content.founderImage || "https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945703/vn_ol4fdb.png"} alt="Founder" style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
+              <img src={"https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945703/vn_ol4fdb.png"} alt="Founder" style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
               <p style={{ fontWeight: "bold", marginBottom: "4px" }}>{content.founderName}</p>
               <p style={{ margin: 0 }}>Founder -</p>
               <p style={{ margin: 0 }}>InfyPlus Consulting</p>
@@ -127,7 +127,7 @@ export default async function About() {
             </div>
             {/* Image and Bio */}
             <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-              <img src={content.mentorImage || "https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945701/ra_gewx5h.png"} alt={content.mentorName} style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
+              <img src={"https://res.cloudinary.com/dsi8rmtfp/image/upload/v1782945701/ra_gewx5h.png"} alt={content.mentorName} style={{ width: "100%", maxWidth: "200px", borderRadius: "6px", marginBottom: "10px" }} />
               <p style={{ fontWeight: "bold", marginBottom: "4px" }}>{content.mentorName}</p>
               <p style={{ margin: 0 }} dangerouslySetInnerHTML={{ __html: content.mentorTitleText.replace(" | ", "<br>") }} />
             </div>
