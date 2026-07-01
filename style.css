@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    /* text-align: justify; */
+  }
+}
+
+.active {
+  @apply text-blue-700; /* Example: Using a Tailwind color */
+}
+.never-active {
+  @apply text-white; /* Example: Using a Tailwind color */
+}
